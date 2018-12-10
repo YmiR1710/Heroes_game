@@ -1,8 +1,8 @@
-public class Character {
+public abstract class Character {
     public int power;
     public int hp;
 
-    public void kick(Character c){}
+    public abstract void kick(Character c);
 
     public boolean isAlive(){
         if(this.hp > 0){
